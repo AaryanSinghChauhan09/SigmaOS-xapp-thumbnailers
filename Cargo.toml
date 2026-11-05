@@ -1,9 +1,9 @@
 [package]
-name = "xapp_thumbnailers"
+name = "sigmaos_xapp_thumbnailers"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-xapp-thumbnailers component"
-license = "MIT"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-xapp-thumbnailers"
+description = "Thumbnail generation engines for PDF, EPUB, RAW images, AppImages, and video files"
 
-[dependencies]
+[lib]
+name = "sigmaos_xapp_thumbnailers"
+path = "src/lib.rs"
