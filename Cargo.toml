@@ -2,7 +2,8 @@
 name = "sigmaos_xapp_thumbnailers"
 version = "0.1.0"
 edition = "2021"
-description = "Thumbnail generation engines for PDF, EPUB, RAW images, AppImages, and video files"
+license = "MIT"
+description = "SigmaOS xapp-thumbnailers component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_xapp_thumbnailers"
