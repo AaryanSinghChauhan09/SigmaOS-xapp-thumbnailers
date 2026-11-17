@@ -1,7 +1,7 @@
 [component]
 name = "SigmaOS-xapp-thumbnailers"
 tier = 3
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "Thumbnailers for XApp file managers"
 upstream = ["https://github.com/linuxmint/xapp-thumbnailers"]
@@ -11,6 +11,6 @@ provides = ["thumbnail-generators", "pdf-thumbnailer", "media-thumbnailer"]
 depends_on = ["SigmaOS-system"]
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles and passes AAA unit tests"
 next_milestone = "Hardware and runtime integration"
