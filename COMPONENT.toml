@@ -3,12 +3,12 @@ name = "SigmaOS-xapp-thumbnailers"
 tier = 3
 stability = "scaffold"
 language = "rust"
-description = "Thumbnail generation engines for PDF, EPUB, RAW images, AppImages, and video files"
+description = "Thumbnailers for XApp file managers"
 upstream = ["https://github.com/linuxmint/xapp-thumbnailers"]
 
 [contract]
 provides = ["thumbnail-generators", "pdf-thumbnailer", "media-thumbnailer"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
